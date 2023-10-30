@@ -1,0 +1,109 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #252d48;
+}
+
+header {
+    font-family: 'Monster';
+    background-color: #0a0a0a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+h1 {
+    color:#fff;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color:#fff;
+    font-size: 18px;
+    line-height: 1.6;   
+}
+
+p {
+    color:#fff;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@font-face {
+    font-family: 'Monster';
+    src: URL('monster.ttf') format('truetype');
+}
+
+.item-image {
+    width:200px;
+    float:left;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+.item-description {
+    width:100%;
+    padding-top: 20px;
+}
+
+.item-music {
+    padding-top: 20px;
+    border-radius:12px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
